@@ -2,7 +2,7 @@
 
 **Personal AI assistant bot for Telegram using OpenAI’s GPT API**
 
-This Telegram bot lets you chat privately with OpenAI's language models (like GPT-4 or GPT-3.5). It responds only to an authorized user and can be extended with more features.
+This Telegram bot lets you chat privately with OpenAI's language models (like GPT-4.1 or GPT-4o, etc.). It responds only to an authorized user and can be extended with more features.
 
 ---
 
@@ -91,15 +91,7 @@ This project is open-source and licensed under the MIT License.
 ## 💡 Notes
 
 - Only the Telegram user ID specified in `.env` can interact with the bot.
-- The bot defaults to `gpt-4`. Change the model in `main.py` if needed.
-
----
-
-## 🏗 Future Ideas
-
-- Command handling (`/help`, `/reset`, etc.)
-- Chat history/memory
-- Cloud deployment (e.g., Railway, Render, etc.)
+- The bot defaults to `gpt-4.1`. Change the model in `main.py` if needed.
 
 ---
 
